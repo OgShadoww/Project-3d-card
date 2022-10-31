@@ -1,0 +1,21 @@
+body {
+  background-color: darkorange;
+}
+
+.cards {
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 20px;
+  width: 400px;
+  height: 400px;
+  margin: 100px auto;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+/*# sourceMappingURL=style.css.map */
