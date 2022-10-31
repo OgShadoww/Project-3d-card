@@ -6,5 +6,5 @@ card.addEventListener('mousemove', event => {
     let halfHeight = card.offsetHeight / 2
     let halfWidth = card.offsetWidth / 2
 
-    card.style.transform = `rotateX(${(valueY - halfHeight) / 10}deg) rotateY(${(valueX - halfWidth) / 10}deg)`
+    card.style.transform = `rotateX(${(valueY - halfHeight) / 10}deg) rotateY(${(valueX - halfHeight) / 10}deg)`
 })
